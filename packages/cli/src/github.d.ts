@@ -150,6 +150,7 @@ export interface Commit {
     };
   };
   messageHeadline: string;
+  updatedAt: string;
 }
 
 export interface RepositoryPullRequests {
